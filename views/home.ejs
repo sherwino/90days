@@ -4,6 +4,7 @@
 
     <head>
         <meta charset= "utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel = "stylesheet" href = "./css/styles.css">
         <title>90 Days</title>
     </head>
@@ -20,7 +21,6 @@
 
         </header>
 
-      <div class ="overlayGradient"></div>
         <div class ="tiptop">
             <h1>90 Days</h1>
             <!-- <h3>As a Consumer</h3> -->
@@ -30,21 +30,64 @@
             <div class = "intro">
                 <h2>In the last 90 days...</h2>
                 <p>I have:</p>
-                <ul class = "pagelinks">
-                    <li>Watched a few <a href ="#films">films</a></li>
-                    <li>Drank a few <a href ="#beers">beers</a></li>
-                    <li>Viewed a few <a href ="#shows">shows</a></li>
-                    <li>Gone to some live <a href ="#events">events</a></li>
-                    <li>Eaten differnet <a href ="#cuisines">cuisines</a></li>
-                    <li>...and I have <a href ="#traveled">traveled</a> around Florida</li>
-                </ul>
+                <table class ="table table-condensed pagelinks">
+                  <tr>
+                    <td>
+                      Watched a few
+                      <a href ="#films"><span class = "glyphicon glyphicon-film"> films</span></a>
+                    </td>
 
-                <p>
+                  <td>
+
+                    Drank a few
+                    <a href ="#beers"><span class = "glyphicon glyphicon-glass"> beers</span></a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    Viewed a few
+                    <a href ="#shows"><span class = "glyphicon glyphicon-hd-video"> shows</a>
+                  </td>
+                  <td>
+                    Listened to a few
+                    <a href ="#shows"><span class = "glyphicon glyphicon-cd"> albums</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    Gone to some live
+                    <a href ="#events"><span class = "glyphicon glyphicon-calendar"> events</a>
+                  </td>
+
+                  <td>
+                    Eaten differnet
+                    <a href ="#cuisines"><span class = "glyphicon glyphicon-cutlery"> cuisines</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    ...and I have
+                    <a href ="#traveled"><span class = "glyphicon glyphicon-road"> traveled</a> around Florida
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+                </tbody>
+              </table>
+
+                <br>
+                <br>
+                <div class ="row container-full">
                     ...so I wanted to take the oportunity to explore some of these things
                     I have been consuming lately to keep a database of spending, listening,
                     vieweing, and eating habits.
-                </p>
+                </div>
             </div>
+
         <article id="films">
 
             <figure>

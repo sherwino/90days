@@ -3,7 +3,6 @@ body {
     width: 100%;
     height: 100%;
     top: 0px;
-    position: absolute;
     margin: 0px;
 }
 
@@ -17,7 +16,7 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-    height: 40px;
+    height: 65px;
     background: #fff;
     width: 100%;
     margin: 0;
@@ -28,9 +27,6 @@ nav {
 
 .navlist {
     list-style-type: none;
-    margin: 0;
-    padding: 0 10px;
-    overflow: hidden;
     background-color: #fff;
 }
 
@@ -58,7 +54,7 @@ nav {
   background: url(../img/photo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 105%;
+  width: 100%;
   height: 1080px;
   z-index: 1;
 }
@@ -73,17 +69,21 @@ nav {
   background: linear-gradient(45deg, #2E3192, #1BFFFF);
   height: 1080px;
   margin: 0;
-  padding: 40px;
+  padding: 10px;
 }
 
 .intro h2 {
   margin: 0 40px;
   font-size: 5em;
   color: orange;
-  text-align: right;
+  text-align: left;
 }
 
 .pagelinks {
   list-style-type: none;
+  font-size: 2em;
+  color: #fff;
+  text-align: right;
+
 
 }
